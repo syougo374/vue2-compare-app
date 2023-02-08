@@ -1,9 +1,18 @@
-import HomeTest from '@/components/HomeTest.vue'
-import AnotherPage from '@/components/AnotherPage.vue'
-import UserPost from '@/components/UserPost'
-import AnotherPage1 from '@/views/AnotherPage.vue'
-import AnotherPage2 from '@/views/AnotherPage2.vue'
-import AnotherPage3 from '@/views/AnotherPage3.vue'
+// import HomeTest from '@/components/HomeTest.vue'
+// import AnotherPage from '@/components/AnotherPage.vue'
+// import UserPost from '@/components/UserPost'
+// import AnotherPage1 from '@/views/AnotherPage.vue'
+// import AnotherPage2 from '@/views/AnotherPage2.vue'
+// import AnotherPage3 from '@/views/AnotherPage3.vue'
+
+const HomeTest = () => import('@/components/HomeTest.vue')
+const AnotherPage = () => import('@/components/AnotherPage.vue')
+const UserPost = () => import('@/components/UserPost')
+const AnotherPage1 = () => import('@/views/AnotherPage.vue')
+const AnotherPage2 = () => import('@/views/AnotherPage2.vue')
+const AnotherPage3 = () => import('@/views/AnotherPage3.vue')
+
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
